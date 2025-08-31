@@ -1,6 +1,6 @@
 services:
   cuos-dev-container:
-    image: "ghcr.io/cuos-dev/cuos-iac:latest"
+    image: "ghcr.io/cuos-dev/cuos-iac-dev-container:latest"
     container_name: cuos-dev-container
     network_mode: host
     pid: host
