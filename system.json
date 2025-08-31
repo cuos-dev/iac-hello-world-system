@@ -1,0 +1,19 @@
+{
+	"hostname": "iac-hello-world-system",
+	"update_registry": "ghcr.io/cuos-dev/",
+	"update_registry_user": "",
+	"update_registry_password": "",
+	"os_image": "cuos-system",
+	"os_image_version": "latest",
+	"os_image_digest": "",
+	"os_image_lxc": "cuos-system-lxc",
+	"os_image_lxc_version": "latest",
+	"os_image_lxc_digest": "",
+	"updater_image": "cuos-updater",
+	"updater_image_version": "latest",
+	"updater_image_digest": "",
+	"initial_image": "cuos-iac",
+	"initial_image_version": "latest",
+	"initial_image_digest": "",
+	"iac_repo_url": "https://"
+}

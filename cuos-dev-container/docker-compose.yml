@@ -1,0 +1,23 @@
+services:
+  cuos-dev-container:
+    image: "ghcr.io/cuos-dev/cuos-iac:latest",
+    container_name: cuos-dev-container
+    network_mode: host
+    pid: host
+    privileged: true
+    volumes:
+      - /root/.docker/config.json:/root/.docker/config.json:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /var/run/cuos.sock:/var/run/cuos.sock
+      - /data:/data
+      - /dev:/dev
+      - /proc:/proc
+      - /etc/partition_mode:/etc/partition_mode:ro
+      - /system.json:/system.json:ro
+      - /usr/local/share/ca-certificates/custom:/usr/local/share/ca-certificates/custom:ro
+    environment:
+      - TZ=Europe/Berlin
+    restart: always
+#    profiles:
+#      - dev
+

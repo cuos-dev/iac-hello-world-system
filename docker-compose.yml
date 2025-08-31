@@ -1,0 +1,9 @@
+include:
+  - path: ./cuos-dev-container/docker-compose.yml
+  - path: ./cuos-iac-webui/docker-compose.yml
+
+services:
+  welcome:
+    image: docker/welcome-to-docker
+    ports:
+      - "80:80"
