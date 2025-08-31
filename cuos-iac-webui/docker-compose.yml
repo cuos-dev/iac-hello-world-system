@@ -1,6 +1,7 @@
 services:
-  iac-manager-webui:
+  cuos-iac-webui:
     image: "ghcr.io/cuos-dev/cuos-iac-webui:latest"
+    container_name: cuos-iac-webui
     volumes:
       - /var/run/cuos.sock:/var/run/cuos.sock
       - /system.json:/system.json:ro
