@@ -17,6 +17,10 @@ services:
       - /usr/local/share/ca-certificates/custom:/usr/local/share/ca-certificates/custom:ro
     environment:
       - TZ=Europe/Berlin
+    logging:
+      driver: journald
+      options:
+        tag: "{{.Name}}"
     restart: always
 #    profiles:
 #      - dev

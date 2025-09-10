@@ -7,6 +7,13 @@ services:
       - /system.json:/system.json:ro
     ports:
       - "8030:3000"
+    environment:
+      - LOCAL=de-DE
+      - TZ=Europe/Berlin
+    logging:
+      driver: journald
+      options:
+        tag: "{{.Name}}"
     restart: always
 #    profiles:
 #      - dev
