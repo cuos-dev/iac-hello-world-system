@@ -15,6 +15,9 @@ services:
       - /etc/partition_mode:/etc/partition_mode:ro
       - /system.json:/system.json:ro
       - /usr/local/share/ca-certificates/custom:/usr/local/share/ca-certificates/custom:ro
+      - /run/systemd/journal/socket:/run/systemd/journal/socket
+      - /var/log/journal:/var/log/journal:ro
+      - /etc/machine-id:/etc/machine-id:ro
     environment:
       - TZ=Europe/Berlin
     restart: always
