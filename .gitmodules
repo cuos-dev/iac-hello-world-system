@@ -1,0 +1,3 @@
+[submodule "cuos-release"]
+	path = cuos-release
+	url = https://github.com/cuos-dev/cuos-release.git
