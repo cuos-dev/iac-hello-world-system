@@ -1,7 +1,7 @@
 # CuOS Hello World
 
 A complete CuOS system in two files. This is the
-[Container Service](https://github.com/cuos-dev/cuos/blob/development/docs/development-guide.md#container-service)
+[Container Service](https://github.com/cuos-dev/cuos/blob/HEAD/docs/development-guide.md#container-service)
 level: CuOS IaC runs as the CuOS Init App and deploys what this repository
 describes, so there is no image to build and no container to write.
 
@@ -42,6 +42,6 @@ it as an LXC container is all in the
 
 ## Next
 
-- [Development Guide](https://github.com/cuos-dev/cuos/blob/development/docs/development-guide.md)
+- [Development Guide](https://github.com/cuos-dev/cuos/blob/HEAD/docs/development-guide.md)
   — the four levels, and when to leave this one
-- [system.json reference](https://github.com/cuos-dev/cuos/blob/development/docs/common/system-json-reference.md)
+- [system.json reference](https://github.com/cuos-dev/cuos/blob/HEAD/docs/common/system-json-reference.md)
