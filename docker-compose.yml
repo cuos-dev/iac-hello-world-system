@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT-0
 include:
   - path: ./cuos-release/cuos-iac-webui/docker-compose.yml
   - path: ./cuos-release/cuos-iac-fleet-agent/docker-compose.yml

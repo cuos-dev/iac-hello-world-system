@@ -45,3 +45,14 @@ it as an LXC container is all in the
 - [Development Guide](https://github.com/cuos-dev/cuos/blob/HEAD/docs/development-guide.md)
   — the four levels, and when to leave this one
 - [system.json reference](https://github.com/cuos-dev/cuos/blob/HEAD/docs/common/system-json-reference.md)
+
+---
+
+## License
+
+**MIT-0** — see [LICENSE.txt](LICENSE.txt). MIT without the attribution clause:
+copy this, change it, ship it, and you owe nothing — no notice to carry, no
+credit to give.
+
+That is deliberate. This repository exists to be taken. CuOS itself is
+Apache-2.0; only the boiler plates and the example are MIT-0.
