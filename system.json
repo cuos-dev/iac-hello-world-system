@@ -1,26 +1,20 @@
 {
+	"#include": [
+		"cuos-release/release.json"
+	],
 	"update_registry": "ghcr.io/cuos-dev/",
-	"update_registry_user": "simonwalz",
-	"update_registry_password": "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",
-	"os_image": "cuos-system",
-	"os_image_version": "development",
-	"os_image_digest": "",
-	"rpi-arm64_image": "cuos-system-rpi-arm64",
-	"rpi-arm64_image_version": "development",
-	"rpi-arm64_image_digest": "",
-	"lxc_image": "cuos-system-lxc",
-	"lxc_image_version": "development",
-	"lxc_image_digest": "",
-	"updater_image": "cuos-updater",
-	"updater_image_version": "development",
-	"updater_image_digest": "",
-	"init_image": "cuos-iac",
-	"init_image_version": "latest",
-	"init_image_digest": "",
-	"iac_repo_url": "https://simonwalz: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@github.com/cuos-dev/iac-hello-world-system.git",
+	"iac_repo_url": "https://github.com/cuos-dev/iac-hello-world-system.git",
 	"iac_repo_branch": "development",
+	"network": [
+		{
+			"dhcp": true
+		}
+	],
+    "os_ssh_server": true,
+	"os_root_authorized_keys": [
+		"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHqtW3L6+pqcb7e/fdXT1Josk9zNKCdIQqKvwBPG8VjW"
+	],
 	"dev-keys": [
-		"ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA4wxR1WN7k1fBnvoLu5hFQmFyeUnDnB8H+tQL1HB3HmenGk0qK1OvXQ0LycXYyL6Pxdoj3LwddwcIxkcd35ak14LBcwopJ0UBeczAfVYupgQxLtRzimxs6IXUFDa5asEw9VMIbITYKcDGbWd9EQHFC0QBn87Xic47jjd+ZWawnsVHuGxKLVAC8w2l4hpm87uo2z5AIuXAgDukQrXhDn+zn/pPG/Ijhz1DKDRYo3uRxcys1WsfwshMwV+4MCuvIvW3XpLP/Z6/furXssa4N/egkGAgaGMmyW9ZBZnJSxZcqsEFlxuDCBrytIzKWORh4CaTtvadgY3f/Is8Q/7CG5nj2w== sw1001@PowerApfel.local",
-		"ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAgEAhmoftDnvnQaR7qq4CZk+3GdNDxJBsAT82EEgyc4fbo9Rx7U9gva6QpQgXNi4TgdqC4O9SDMOujA63aPPxuuV98dxz4fxY8S67tnkoab7c4G/hIpvqKgFt79ZqRw+9gyOS2qiaf9WXLq+f1NaeRowi8J/6F2jhnDlzfyQSQAilILj3CVgkH8jMGdz+zJX45yFNPUXlvhkv7ieB8jVqFT2DYioig5J2qPr/FzDZwy4KeppBYDZ2fya5Gg9e+boYEVPUwShX6h5YwBnDxoUlsDUFhgheNtAZjIK/WHgY0PLOzAOo1SftkEZULah22PG2O6+bJ2NT//Kz8cgyuSv2U3dXQvRUSpYtlbpIi3gBDKdbMQM+HACcp4V0a6Ou9UfUd3GyRrXTB8jZD/L5SPCqni2EMr+inohYdoufoQx/zMckS+tiT88s6SDiOikLlu6BH4C0SxlW2cyagCoTxe6nSSXbsGrGBCspS7PJPl8AmYco23uzQouC/zj5btHZGEuEPAC/VWTFXoEgouwnfMU3JxNeu0xCpWqHkGRzJeARl65vAwgJEqb1h+xiWbHLjvYWtuPoGo6+jiRF17wVX5OeF3wGkVqoFNOwTRItb++pwwqYbTMf3LEHxqjLsuJGYZf+P1EgUDNaNj2JC/IPXvRmdtIUIwZ7wsHtStlJyaxHxy+y20= walz"
+		"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHqtW3L6+pqcb7e/fdXT1Josk9zNKCdIQqKvwBPG8VjW"
 	]
 }

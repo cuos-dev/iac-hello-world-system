@@ -1,6 +1,7 @@
 include:
-  - path: ./cuos-dev-container/docker-compose.yml
-  - path: ./cuos-iac-webui/docker-compose.yml
+  - path: ./cuos-release/cuos-iac-webui/docker-compose.yml
+  - path: ./cuos-release/cuos-iac-fleet-agent/docker-compose.yml
+  - path: ./cuos-release/cuos-dev-container/docker-compose.yml
 
 services:
   welcome:
