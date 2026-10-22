@@ -4,7 +4,7 @@
 	],
 	"update_registry": "ghcr.io/cuos-dev/",
 	"iac_repo_url": "https://github.com/cuos-dev/iac-hello-world-system.git",
-	"iac_repo_branch": "development",
+	"iac_repo_branch": "main",
 	"network": [
 		{
 			"dhcp": true
